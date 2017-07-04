@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{File Parser for structured formats.}
   spec.description   = %q{A gereric file parser for structured format.}
-  spec.homepage      = "http://rubygems.org/gems/parse_structured_files"
+  spec.homepage      = "https://github.com/lucasdc6/parse_structured_files"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
