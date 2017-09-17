@@ -31,7 +31,7 @@ module ParseStructuredFiles
     # @param arr [Array]
     # @return [Fieldset]
     def to_fieldset(arr)
-      if(@general_expresion = /(?<line>.*)/)
+      if(@general_expresion == /(?<line>.*)/)
         Fieldset[arr]
       else
         Fieldset[arr].as_data_fieldset
